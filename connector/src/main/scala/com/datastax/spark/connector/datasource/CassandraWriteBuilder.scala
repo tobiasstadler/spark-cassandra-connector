@@ -104,6 +104,7 @@ case class CassandraBulkWrite(
   extends BatchWrite
     with StreamingWrite {
 
+  override def useCommitCoordinator(): Boolean = true
 
   override def createBatchWriterFactory(info: PhysicalWriteInfo): DataWriterFactory = getWriterFactory()
 

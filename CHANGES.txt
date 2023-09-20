@@ -1,3 +1,6 @@
+3.5.0
+ * Spark 3.5.x support (SPARKC-)
+
 3.4.1
  * Scala 2.13 support (SPARKC-686)
 
